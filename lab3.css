@@ -1,0 +1,104 @@
+.box1 {
+    background:rgb(0, 79, 128);
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+
+.float.box2 {
+    background: rgb(128, 0, 6);
+    width: 50%;
+    height: 200px;
+    display: grid;
+    align-items: center;
+    float: left;
+    color: white;
+}
+
+.float.box3 {
+    background: rgb(255, 170, 0);
+    display: grid;
+    align-items: center;
+    height: 200px;
+    width: 50%;
+    float: left;
+    color: white;
+}
+
+.float.box4 {
+    background: rgb(0, 79, 128);
+    width: 100%;
+    height: 50px;
+    color: white;
+    float: right;
+}
+
+.float .content {
+    padding: 20px;
+    text-align: center;
+}
+
+.box1 .content, .box4 .content {
+    margin-right: 35px;
+}
+
+.box2 .content, .box3 .content {
+    margin-right: 50%;
+}
+
+.flex {
+    float: left;
+    margin-top: 100px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.flex .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex .box1 div, .flex .box4 div {
+    margin-right: 35px;
+}
+
+.flex .box2 div, .flex .box3 div {
+    margin-right: 50%;
+}
+
+.flex .box2 {
+    background: rgb(128, 0, 6);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: white;
+}
+
+.flex .box3 {
+    background: rgb(255, 170, 0);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: white;
+}
+
+.flex .box4 {
+    width: 100%;
+    background: rgb(0, 79, 128);
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

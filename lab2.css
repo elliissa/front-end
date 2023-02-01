@@ -1,0 +1,98 @@
+img {
+    height: 300px;
+}
+
+table {
+    width: 100%;
+}
+
+table .half {
+    width: 50%;
+}
+
+table .quarter {
+    width: 25%;
+}
+
+.row1 {
+    background-color: hsl(120, 89%, 38%);
+    color: white;
+}
+
+.row2 {
+    background-color: #11c4f5;
+    color: #2129C2;
+}
+
+:hover.row1 {
+    background-color: #11c4f5;
+    color: #2129C2;
+}
+
+:hover.row2 {
+    background-color:  hsl(120, 89%, 38%);
+    color: white;
+}
+
+td {
+    min-width: 100px;
+    height: 30px;
+}
+
+.background {
+    width: 40px;
+    height: 125px;
+    background-color: lightgrey;
+    border: black 1px solid;
+    border-radius: 10px;
+}
+
+.background.position {
+    position: relative;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border: black 1px solid;
+    border-radius: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.circle.position.red {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    margin-top: 5px;
+}
+
+.circle.position.yellow {
+    background-color: yellow;
+    position: absolute;
+    margin-top: 46px;
+}
+
+.circle.position.green {
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+}
+
+.circle.transform.red {
+    background-color: red;
+    margin-top: 5px;
+}
+
+.circle.transform.yellow {
+    background-color: yellow;
+    transform: translateY(11px);
+}
+
+.circle.transform.green {
+    background-color: green;
+    margin-bottom: 5px;
+    transform: translateY(20px);
+}
+
